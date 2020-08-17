@@ -2,50 +2,71 @@
 <html>
 
 <head>
-  <!-- hier zet je de code in de head tags -->
   <title> Portfolio 3zestig development </title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
   <header>
-    <div class="dropdown" id="dropdown">
-      <img src="hamburger_icon.svg.png" width="20px" alt="menu">
-      <div class="dropdown-content">
-        <h1 class="Welkom">Welkom</h1>
+    <div class="navbar">
+      <div class="dropdown" id="dropdown">
+        <img src="hamburger_icon.svg.png" width="20px" alt="menu">
+        <div class="dropdown-content">
+          <h1 class="Welkom">Welkom</h1>
           <a class="Homebtn" href="index.html">Home</a><br>
-          <a class="menu-a" href="index.html#scroll-a">Filosofie</a><br>
-          <a class="menu-b" href="portfolio.html">Portfolio &gt</a><br>
-          <a class="menu-c">Achtergrondinfo</a><br>
-          <a class="menu-d">Contact &gt</a>
+          <a class="menu-a" href="index.html#scroll-a">Filosofie &gt</a><br>
+          <a class="menu-b" href="portfolio.html">Portfolio</a><br>
+          <a class="menu-c" href="index.html#scroll-c">Achtergrondinfo &gt</a><br>
+          <a class="menu-d" href="#contact">Contact</a>
         </div>
       </div>
+    </div>
   </header>
 
- 
-  <article class="Portfolio">
-    <h2>Portfolio</h2>
-    <p class="Portfolio1"> 
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    </p>
+  <main>
+    <article class="Portfolio">
+      <h2>Portfolio</h2>
+      <p class="Portfolio1">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      </p>
 
-    <nav class="container">
-      <div class="blogpost1"> <h1> Deze website bouwde ik in 2016</h1> <img width="250px" src="nos.JPG"/></div> 
-      <div class="blogpost2"> <h1> Deze website bouwde ik in 2017</h1> <img width="250px" src="nos.JPG"/></div>
-      <div class="blogpost3"> <h1> Deze website bouwde ik in 2018</h1> <img width="250px" src="nos.JPG"></div>
-      <div class="blogpost4"> <h1> Deze website bouwde ik in 2019</h1><img width="250px" src="nos.JPG"/></div>
-      <div class="blogpost5"> <h1> Deze website bouwde ik in 2020</h1><img width="250px" src="nos.JPG"/></div>
-     </nav>
-  </article>
-
+      <nav class="container">
+        <div class="blogpost1">
+          <h1> Deze site bouwde ik in 2016</h1> <img width="250px" src="nos.JPG" />
+        </div>
+        <div class="blogpost2">
+          <h1> Deze site bouwde ik in 2017</h1> <img width="250px" src="nos.JPG" />
+        </div>
+        <div class="blogpost3">
+          <h1> Deze site bouwde ik in 2018</h1> <img width="250px" src="nos.JPG">
+        </div>
+        <div class="blogpost4">
+          <h1> Deze site bouwde ik in 2019</h1><img width="250px" src="nos.JPG" />
+        </div>
+        <div class="blogpost5">
+          <h1> Deze site bouwde ik in 2020</h1><img width="250px" src="nos.JPG" />
+        </div>
+      </nav>
+    </article>
+    <br>
+  </main>
+  <hr>
+  <br>
   <a name="contact"></a>
 
-  <div class="footer-grid">
-    <div class="contact">contactgegevens<br> stuur een e-mail<br></div>
-    <div class="route">route <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19599.39126678697!2d4.995476788623052!3d52.11751325384844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6705658d5c745%3A0x87d27ff36625ecd8!2sKasteel%20de%20Haar!5e0!3m2!1snl!2snl!4v1596898118751!5m2!1snl!2snl" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
-    <div class="social">social logo</div>
-    <div class="footer">site-footer</div>
-</div>
+  <footer>
+    <div class="footer-grid">
+      <div class="contact"><a href="contact.html" class="contact-link">Contact</a></div>
+      <div class="route"> <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19599.39126678697!2d4.995476788623052!3d52.11751325384844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6705658d5c745%3A0x87d27ff36625ecd8!2sKasteel%20de%20Haar!5e0!3m2!1snl!2snl!4v1596898118751!5m2!1snl!2snl"
+          width="300" height="200" frameborder="0" style="border:0;border-radius: 10px;" allowfullscreen=""
+          aria-hidden="false" tabindex="0"></iframe></div>
+      <div class="social"><a href="https://www.pinterest.com" target="_blank" class="social-link"><img
+            src="https://s.pinimg.com/webapp/style/images/logo_trans_144x144-642179a1.png" width="40px"
+            alt="pinterest"></a></div>
+      <div class="site-footer">&copy 2020 3sixty development</div>
+    </div>
+  </footer>
 
 </body>
 
