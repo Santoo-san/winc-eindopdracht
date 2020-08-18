@@ -234,6 +234,9 @@ footer {
         line-height: 30px;
         columns:2
       }
+      .hamburger {
+        width:20px;
+      }
       .Portfolio {
         background-image: url(mountain1.jpg);
         width: 100%;
