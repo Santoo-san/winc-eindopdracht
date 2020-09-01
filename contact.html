@@ -1,76 +1,132 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Laat je gegevens achter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
 
-<head>
-  <title> Laat je gegevens achter </title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-
-<body>
-  <!-- Anchors toevoegen -->
-  <header>
-    <div class="navbar">
-      <div class="dropdown" id="dropdown">
-        <img class="hamburger" src="hamburger_icon.svg.png" width="40px" alt="menu">
-        <div class="dropdown-content">
-          <h1 class="Welkom">Welkom</h1>
-          <a class="Homebtn" href="index.html">Home &gt</a><br>
-          <a class="menu-a" href="index.html#scroll-a">Filosofie &gt</a><br>
-          <a class="menu-b" href="portfolio.html">Portfolio &gt</a><br>
-          <a class="menu-c" href="index.html#scroll-c">Achtergrondinfo &gt</a><br>
-          <a class="menu-d" href="#contact">Contact</a>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="dropdown" id="dropdown">
+          <img
+            class="hamburger"
+            src="hamburger_icon.svg.png"
+            width="40px"
+            alt="menu"
+          />
+          <div class="dropdown-content">
+            <h1 class="Welkom">Welkom</h1>
+            <a class="Homebtn" href="index.html">Home &gt</a><br />
+            <a class="menu-a" href="index.html#scroll-a">Filosofie &gt</a><br />
+            <a class="menu-b" href="portfolio.html">Top 5 &gt</a><br />
+            <a class="menu-c" href="index.html#scroll-c">Achtergrondinfo &gt</a
+            ><br />
+            <a class="menu-d" href="#contact">Contact</a>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <header class="formheader">
-    <h1> Leuke site? Laat even weten wat je ervan vindt! </h1>
-  </header>
-  <main>
-    <article class="contactform">
-      <h2> Vul onderstaand formulier in:</h2>
+    <header class="formheader">
+      <h1>Heb jij een mooi verhaal over de bergen? Deel het hieronder!</h1>
+    </header>
+    <main>
+      <article class="contactform">
+        <h2>Vul onderstaand formulier in:</h2>
 
-      <form name="contact" method="POST" data-netlify="true">
-        <hr>
-        <label>Naam: <input name="naam" type="text" placeholder="voer hier je naam in" /></label><br><br>
-        <label> E-mail: <input name="e-mail" type="e-mail" placeholder="voorbeeld@voorbeeld.nl" /></label><br><br>
-        <label> Telefoon: <input name="telefoon" type="tel" placeholder="0123456789" /></label><br><br>
-        <label> Leeftijd: <input name="leeftijd" type="number" min="18" max="120" /></label><br><br>
-        <label> Geboortedatum <input name="datum" type="date" /></label><br><br>
-        <label> Ik voel mij vandaag: <input name="geslacht" type="radio" id="Man" value="Man" /> Man <input
-            name="geslacht" type="radio" id="Vrouw" value="Vrouw" /> Vrouw<input name="geslacht" type="radio" id="GJNA"
-            value="Gaat je niks aan" /> Gaat je niks aan
-        </label><br><br>
-        <label class="labeltextarea" for="textarea">Wat vind je van deze site? <textarea name="tekst" rows="10"
-            cols="30" placeholder="voer hier je verhaal in"></textarea></label><br><br>
-        <h3>Even afvinken:</h3>
-        <label>Houd mij op de hoogte <input name="nieuwsbrief" type="checkbox" /></label><br>
-        <label>Akkoord met het opslaan van de gegevens <input name="akkoord" type="checkbox" required /></label><br><br>
-        <hr>
-        <button type="reset" class="reset">Reset</button><br>
-        <button type="submit" class="verzenden">Verzenden</button><br><br>
-      </form>
-    </article>
-  </main>
-  <br>
-  <hr>
-  <br>
-  <a name="contact"></a>
-  <footer>
-    <div class="footer-grid">
-      <div class="contact"><a href="contact.html" class="contact-link">Contact</a></div>
-      <div class="route"> <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19599.39126678697!2d4.995476788623052!3d52.11751325384844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6705658d5c745%3A0x87d27ff36625ecd8!2sKasteel%20de%20Haar!5e0!3m2!1snl!2snl!4v1596898118751!5m2!1snl!2snl"
-          width="300" height="200" frameborder="0" style="border:0;border-radius: 10px;" allowfullscreen=""
-          aria-hidden="false" tabindex="0"></iframe></div>
-      <div class="social"><a href="https://www.pinterest.com" target="_blank" class="social-link"><img
-            src="https://s.pinimg.com/webapp/style/images/logo_trans_144x144-642179a1.png" width="40px"
-            alt="pinterest"></a></div>
-      <div class="site-footer">&copy 2020 3sixty development</div>
-    </div>
-  </footer>
-
-</body>
-
+        <form name="contact" method="POST" data-netlify="true">
+          <hr />
+          <label
+            >Naam:
+            <input
+              name="naam"
+              type="text"
+              placeholder="voer hier je naam in" /></label
+          ><br /><br />
+          <label>
+            E-mail:
+            <input
+              name="e-mail"
+              type="email"
+              placeholder="voorbeeld@voorbeeld.nl" /></label
+          ><br /><br />
+          <label>
+            Telefoon:
+            <input name="telefoon" type="tel" placeholder="0123456789" /></label
+          ><br /><br />
+          <label> Geboortedatum <input name="datum" type="date" /></label
+          ><br /><br />
+          <label>
+            Ik voel mij vandaag:
+            <input name="geslacht" type="radio" id="Man" value="Man" /> Man
+            <input name="geslacht" type="radio" id="Vrouw" value="Vrouw" />
+            Vrouw<input
+              name="geslacht"
+              type="radio"
+              id="GJNA"
+              value="Gaat je niks aan"
+            />
+            Gaat je niks aan </label
+          ><br /><br />
+          <label class="labeltextarea" for="textarea"
+            >Vertel jouw mooiste verhaal over de bergen:
+            <textarea
+              name="tekst"
+              rows="10"
+              cols="30"
+              placeholder="voer hier je verhaal in"
+            ></textarea></label
+          ><br /><br />
+          <h3>Even afvinken:</h3>
+          <label
+            >Houd mij op de hoogte
+            <input name="nieuwsbrief" type="checkbox" /></label
+          ><br />
+          <label
+            >Akkoord met het opslaan van de gegevens
+            <input name="akkoord" type="checkbox" required /></label
+          ><br /><br />
+          <hr />
+          <button type="reset" class="reset">Reset</button><br />
+          <button type="submit" class="verzenden">Verzenden</button><br /><br />
+        </form>
+      </article>
+    </main>
+    <br />
+    <hr />
+    <br />
+    <a name="contact"></a>
+    <footer>
+      <div class="footer-grid">
+        <div class="contact">
+          <a href="contact.html" class="contact-link">Contact</a>
+        </div>
+        <div class="route">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11119.729440495696!2d6.856420130122149!3d45.83263641655265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789459fb534be51%3A0xa908728c5dcec4c0!2sMont%20Blanc!5e0!3m2!1snl!2snl!4v1598894839210!5m2!1snl!2snl"
+            width="300"
+            height="200"
+            frameborder="0"
+            style="border: 0; border-radius: 10px"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+        <div class="social">
+          <a
+            href="https://www.pinterest.com"
+            target="_blank"
+            class="social-link"
+            ><img
+              src="https://s.pinimg.com/webapp/style/images/logo_trans_144x144-642179a1.png"
+              width="40px"
+              alt="pinterest"
+          /></a>
+        </div>
+        <div class="site-footer">&copy 2020 3sixty development</div>
+      </div>
+    </footer>
+  </body>
 </html>
